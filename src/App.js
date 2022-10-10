@@ -7,6 +7,7 @@ import Todos from "./todos.js";
 import Characterlimit from "./Characterlimit.js";
 import WaitDelay from "./WaitDelay.js";
 import FetchPost from "./FetchPost.js";
+import Windowresize from "./Windowresize";
 /*
 function App() {
   const [count, setCount] = useState(0);
@@ -55,6 +56,7 @@ function App() {
         />
 
         <FetchPost />
+        <Windowresize />
       </div>
     </NumberContext.Provider>
   );
