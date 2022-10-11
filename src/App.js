@@ -8,6 +8,9 @@ import Characterlimit from "./Characterlimit.js";
 import WaitDelay from "./WaitDelay.js";
 import FetchPost from "./FetchPost.js";
 import Windowresize from "./Windowresize";
+import ReducerExample from "./ReducerExample.js";
+import CounteRef from "./CounteRef.js";
+import FormWithRefHook from "./FormWithRefHook.js";
 /*
 function App() {
   const [count, setCount] = useState(0);
@@ -55,8 +58,11 @@ function App() {
           ui={<p>This text should appear after 3 seconds</p>}
         />
 
-        <FetchPost />
+        {/*<FetchPost />
         <Windowresize />
+        <ReducerExample />
+        <CounteRef />*/}
+        <FormWithRefHook />
       </div>
     </NumberContext.Provider>
   );
